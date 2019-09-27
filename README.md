@@ -2,8 +2,8 @@
 slid·er
 /ˈslīdər/
 
-1. a handle that may be moved horizontally or vertically or button that can be pushed to control an image.
-~~2. a small hamburger or other hot sandwich made with a soft bun.~~
+1. a handle that may be moved horizontally or vertically or button that can be pushed to control an image.<br />
+~~2. a small hamburger or other hot sandwich made with a soft bun.~~<br />
 
 Programmatically, a slider can be as simple as a set of boxes, set in a row with usually only one visible at a time, where either the user can navigate in-between or the display is automatic.
 
