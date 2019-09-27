@@ -33,14 +33,36 @@ img {
     padding: 0.75rem;
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: 60px;
     left: 0;
     width: 100%;
     margin: 0;
+    font-size: 16px;
+    font-family: 'Roboto';
+    text-transform: lowercase;
+    font-weight: 200;
+    width: 30px;
+}
+.unsplash-author-link {
+    color: #2fc2fa!important;
+    font-style: normal;
+    font-weight: bold;
+    width: 250px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
+.unsplash-link {
+    color: #2fc2fa!important;
+    font-style: normal;
+    font-weight: bold;
+}
+  
 .unsplash-author-info a {
-    color: white;
+    color: #2fc2fa!important;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .unsplash-img {
@@ -135,4 +157,14 @@ img {
     .neoscape-slider > a {
         display: none;
     }
+}
+
+
+@media screen and (max-width: 460px) and (orientation: portrait) {
+    .square-buttons > a {
+    width: 2rem;
+    height: 2rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
 }
